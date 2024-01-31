@@ -190,6 +190,12 @@ document.onkeydown = function (e) {
     }
 }
 
+// Cancel right click (context menu) event
+window.oncontextmenu = function ()
+{
+    return false;
+}
+
 // Start of Tawk.to Live Chat
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
