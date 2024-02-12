@@ -1,15 +1,5 @@
 [
   {
-    "name": "JavaScript Projects Website",
-    "desc": "This Website is specifically designed to display a collection of my significant JavaScript projects. All of my projects built with JavaScript are featured here.",
-    "image": "javascript-projects",
-    "category": "javascript",
-    "links": {
-      "view": "https://lorisaccordino.github.io/JavaScript-Projects/index.html",
-      "code": "https://github.com/LorisAccordino/JavaScript-Projects"
-    }
-  },
-  {
     "name": "Sticky Notes",
     "desc": "Simple Sticky Notes editor with basic UI made in JS.",
     "image": "sticky-notes",
