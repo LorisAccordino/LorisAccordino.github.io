@@ -2,11 +2,31 @@
   {
     "name": "JavaScript Projects Website",
     "desc": "This Website is specifically designed to display a collection of my significant JavaScript projects. All of my projects built with JavaScript are featured here.",
-    "image": "javascript_projects",
+    "image": "javascript-projects",
     "category": "javascript",
     "links": {
-      "view": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/sticky-notes",
-      "code": "https://github.com/LorisAccordino/JavaScript-Projects/sticky-notes"
+      "view": "https://lorisaccordino.github.io/JavaScript-Projects/index.html",
+      "code": "https://github.com/LorisAccordino/JavaScript-Projects"
+    }
+  },
+  {
+    "name": "Sticky Notes",
+    "desc": "Simple Sticky Notes editor with basic UI made in JS.",
+    "image": "sticky-notes",
+    "category": "javascript",
+    "links": {
+      "view": "https://lorisaccordino.github.io/JavaScript-Projects/sticky-notes/index.html",
+      "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/sticky-notes"
+    }
+  },
+  {
+    "name": "To-Do App",
+    "desc": "Simple To-Do list with basic UI made in JS",
+    "image": "to-do",
+    "category": "javascript",
+    "links": {
+      "view": "https://lorisaccordino.github.io/JavaScript-Projects/to-do/index.html",
+      "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/to-do"
     }
   }
 ]
