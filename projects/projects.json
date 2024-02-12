@@ -28,5 +28,15 @@
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/to-do/index.html",
       "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/to-do"
     }
+  },
+  {
+    "name": "Pomodoro Timer",
+    "desc": "Simple Pomodoro Timer, to focus on study or work",
+    "image": "pomodoro",
+    "category": "javascript",
+    "links": {
+      "view": "https://lorisaccordino.github.io/JavaScript-Projects/pomodoro/index.html",
+      "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/pomodoro"
+    }
   }
 ]
