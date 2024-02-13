@@ -40,6 +40,16 @@
     }
   },
   {
+    "name": "Weather Forecast",
+    "desc": "A simple weather forecast web app to check current weather conditions.",
+    "image": "weather-forecast.png",
+    "category": "JavaScript",
+    "links": {
+      "view": "https://lorisaccordino.github.io/JavaScript-Projects/weather-forecast/index.html",
+      "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/weather-forecast"
+    }
+  },
+  {
     "name": "Audio Processing",
     "desc": "An advanced audio analysis and processing application written in C#.",
     "image": "waveform.gif",
