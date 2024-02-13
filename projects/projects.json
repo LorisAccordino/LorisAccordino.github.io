@@ -1,9 +1,9 @@
 [
   {
     "name": "Sticky Notes",
-    "desc": "Simple Sticky Notes editor with basic UI made in JS.",
+    "desc": "A simple sticky notes editor with a basic user interface built in JavaScript.",
     "image": "sticky-notes",
-    "category": "javascript",
+    "category": "JavaScript",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/sticky-notes/index.html",
       "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/sticky-notes"
@@ -11,9 +11,9 @@
   },
   {
     "name": "To-Do App",
-    "desc": "Simple To-Do list with basic UI made in JS",
+    "desc": "A straightforward to-do list with a basic user interface implemented in JavaScript.",
     "image": "to-do",
-    "category": "javascript",
+    "category": "JavaScript",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/to-do/index.html",
       "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/to-do"
@@ -21,12 +21,22 @@
   },
   {
     "name": "Pomodoro Timer",
-    "desc": "Simple Pomodoro Timer, to focus on study or work",
+    "desc": "A simple Pomodoro Timer designed to help users focus on their studies or work.",
     "image": "pomodoro",
-    "category": "javascript",
+    "category": "JavaScript",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/pomodoro/index.html",
       "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/pomodoro"
+    }
+  },
+  {
+    "name": "Expense Tracker",
+    "desc": "An uncomplicated expense tracker to monitor personal spending.",
+    "image": "expense-tracker",
+    "category": "JavaScript",
+    "links": {
+      "view": "https://lorisaccordino.github.io/JavaScript-Projects/expense-tracker/index.html",
+      "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/expense-tracker"
     }
   }
 ]
