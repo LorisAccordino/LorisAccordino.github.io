@@ -13,6 +13,21 @@
         <!-- Favicon -->
         <link id="favicon" rel="shortcut icon" href="assets/images/favicon.png" type="image/x-png">
         <title>Portfolio | Loris Accordino</title>
+
+        <!-- MAIL CONTACT -->
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+               /*emailjs.init({
+                 publicKey: "uO02cavLe5BHAMfDo",
+               });*/
+
+               alert("EMAILJS INITIALIZED!");
+            })();
+         </script>
+
         <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65839862293/js/twk-chunk-2c776523.js"></script>
         <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65839862293/js/twk-chunk-9294da6c.js"></script>
         <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65839862293/js/twk-chunk-2d0b383d.js"></script>
@@ -331,25 +346,24 @@
                 
                 <div class="form-group">
                   <div class="field">
-                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="text" name="name" id="contact-name" placeholder="Name" required>
                     <i class='fas fa-user'></i>
                   </div>
                   <div class="field">
-                    <input type="text" name="email" placeholder="Email" required>
+                    <input type="text" name="email" id="contact-email" placeholder="Email" required>
                     <i class='fas fa-envelope'></i>
                   </div>
                   <div class="field">
-                    <input type="text" name="phone" placeholder="Phone">
+                    <input type="text" name="phone" id="contact-phone" placeholder="Phone">
                     <i class='fas fa-phone-alt'></i>
                   </div>
                   <div class="message">
-                  <textarea placeholder="Message" name="message" required></textarea>
+                  <textarea placeholder="Message" id="contact-message" name="message" required></textarea>
                   <i class="fas fa-comment-dots"></i>
                   </div>
                   </div>
                 <div class="button-area">
-                  <button type="submit">
-                    Submit <i class="fa fa-paper-plane"></i></button>
+                  <button type="submit" onclick="sendEmail()">Submit<i class="fa fa-paper-plane"></i></button>
                 </div>
               </form>
             </div>

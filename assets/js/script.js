@@ -37,24 +37,49 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
+
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+        event.preventDefault(); // Rimuovi se non vuoi impedire la ricarica della pagina
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
+        sendEmail()
+            .then(() => {
+                alert("Your message sent successfully!");
+            })
+            .catch((err) => {
+                alert("Error sending email: " + err);
             });
-        event.preventDefault();
     });
     // <!-- emailjs to mail contact form data -->
-
 });
+
+function sendEmail() {
+    return new Promise((resolve, reject) => {
+        var params = {
+            name: document.getElementById("contact-name").value,
+            email: document.getElementById("contact-email").value,
+            message: document.getElementById("contact-message").value,
+        };
+
+        const serviceID = "service_yf98jb6";
+        const templateID = "template_v7r9pm3";
+
+        emailjs.init("2zxEo9F1ffMqniMWj");
+
+        emailjs.send(serviceID, templateID, params)
+            .then((res) => {
+                document.getElementById("contact-name").value = "";
+                document.getElementById("contact-email").value = "";
+                document.getElementById("contact-message").value = "";
+                console.log(res);
+                resolve(res);
+            })
+            .catch((err) => {
+                console.log(err);
+                reject(err);
+            });
+    });
+}
 
 document.addEventListener('visibilitychange',
     function () {
@@ -173,7 +198,7 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 
 // disable developer mode
 document.onkeydown = function (e) {
-    if (e.keyCode == 123) {
+    /*if (e.keyCode == 123) {
         return false;
     }
     if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
@@ -187,7 +212,7 @@ document.onkeydown = function (e) {
     }
     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
         return false;
-    }
+    }*/
 }
 
 // Cancel right click (context menu) event
