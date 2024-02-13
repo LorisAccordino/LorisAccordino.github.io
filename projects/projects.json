@@ -2,7 +2,7 @@
   {
     "name": "Sticky Notes",
     "desc": "A simple sticky notes editor with a basic user interface built in JavaScript.",
-    "image": "sticky-notes",
+    "image": "sticky-notes.png",
     "category": "JavaScript",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/sticky-notes/index.html",
@@ -12,7 +12,7 @@
   {
     "name": "To-Do App",
     "desc": "A straightforward to-do list with a basic user interface implemented in JavaScript.",
-    "image": "to-do",
+    "image": "to-do.png",
     "category": "JavaScript",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/to-do/index.html",
@@ -22,7 +22,7 @@
   {
     "name": "Pomodoro Timer",
     "desc": "A simple Pomodoro Timer designed to help users focus on their studies or work.",
-    "image": "pomodoro",
+    "image": "pomodoro.png",
     "category": "JavaScript",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/pomodoro/index.html",
@@ -32,11 +32,21 @@
   {
     "name": "Expense Tracker",
     "desc": "An uncomplicated expense tracker to monitor personal spending.",
-    "image": "expense-tracker",
+    "image": "expense-tracker.png",
     "category": "JavaScript",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/expense-tracker/index.html",
       "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/expense-tracker"
+    }
+  },
+  {
+    "name": "Audio Processing",
+    "desc": "An advanced audio analysis and processing application written in C#.",
+    "image": "waveform.gif",
+    "category": "JavaScript",
+    "links": {
+      "view": "https://github.com/LorisAccordino/Audio-Processing?tab=readme-ov-file#audio-processing",
+      "code": "https://github.com/LorisAccordino/Audio-Processing"
     }
   }
 ]
