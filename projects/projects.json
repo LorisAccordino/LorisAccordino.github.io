@@ -68,5 +68,15 @@
       "view": "https://github.com/LorisAccordino/NLoggify?tab=readme-ov-file#nloggify",
       "code": "https://github.com/LorisAccordino/NLoggify"
     }
+  },
+  {
+    "name": "Java Socket Terminal",
+    "desc": "A socket-based Java client-server application, with chat and shell-style text commands.",
+    "image": "java-socket.png",
+    "category": "JavaScript",
+    "links": {
+      "view": "https://github.com/LorisAccordino/Java-Socket-Terminal?tab=readme-ov-file#-overview",
+      "code": "https://github.com/LorisAccordino/Java-Socket-Terminal"
+    }
   }
 ]
