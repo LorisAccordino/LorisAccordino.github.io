@@ -58,7 +58,7 @@
       "view": "https://github.com/LorisAccordino/Audio-Processing?tab=readme-ov-file#audio-processing",
       "code": "https://github.com/LorisAccordino/Audio-Processing"
     }
-  }
+  },
   {
     "name": "NLoggify",
     "desc": "A lightweight, customizable logging library for .NET that supports multiple log levels",
