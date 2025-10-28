@@ -59,4 +59,14 @@
       "code": "https://github.com/LorisAccordino/Audio-Processing"
     }
   }
+  {
+    "name": "NLoggify",
+    "desc": "A lightweight, customizable logging library for .NET that supports multiple log levels",
+    "image": "nloggify.png",
+    "category": "JavaScript",
+    "links": {
+      "view": "https://github.com/LorisAccordino/NLoggify?tab=readme-ov-file#nloggify",
+      "code": "https://github.com/LorisAccordino/NLoggify"
+    }
+  }
 ]
