@@ -3,37 +3,67 @@
     "name": "Sticky Notes",
     "desc": "A simple sticky notes editor with a basic user interface built in JavaScript.",
     "image": "sticky-notes.png",
-    "category": "JavaScript",
+    "category": "basicweb",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/sticky-notes/index.html",
       "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/sticky-notes"
     }
   },
   {
+    "name": "Audio Processing",
+    "desc": "An advanced audio analysis and processing application written in C#.",
+    "image": "waveform.gif",
+    "category": "audio",
+    "links": {
+      "view": "https://github.com/LorisAccordino/Audio-Processing?tab=readme-ov-file#audio-processing",
+      "code": "https://github.com/LorisAccordino/Audio-Processing"
+    }
+  },
+  {
     "name": "To-Do App",
     "desc": "A straightforward to-do list with a basic user interface implemented in JavaScript.",
     "image": "to-do.png",
-    "category": "JavaScript",
+    "category": "basicweb",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/to-do/index.html",
       "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/to-do"
     }
   },
   {
+    "name": "NLoggify",
+    "desc": "A lightweight, customizable logging library for .NET that supports multiple log levels",
+    "image": "nloggify.png",
+    "category": "programming",
+    "links": {
+      "view": "https://github.com/LorisAccordino/NLoggify?tab=readme-ov-file#nloggify",
+      "code": "https://github.com/LorisAccordino/NLoggify"
+    }
+  },
+  {
     "name": "Pomodoro Timer",
     "desc": "A simple Pomodoro Timer designed to help users focus on their studies or work.",
     "image": "pomodoro.png",
-    "category": "JavaScript",
+    "category": "basicweb",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/pomodoro/index.html",
       "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/pomodoro"
     }
   },
   {
+    "name": "Java Socket Terminal",
+    "desc": "A socket-based Java client-server application, with chat and shell-style text commands.",
+    "image": "java-socket.png",
+    "category": "programming",
+    "links": {
+      "view": "https://github.com/LorisAccordino/Java-Socket-Terminal?tab=readme-ov-file#-overview",
+      "code": "https://github.com/LorisAccordino/Java-Socket-Terminal"
+    }
+  },
+  {
     "name": "Expense Tracker",
     "desc": "An uncomplicated expense tracker to monitor personal spending.",
     "image": "expense-tracker.png",
-    "category": "JavaScript",
+    "category": "basicweb",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/expense-tracker/index.html",
       "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/expense-tracker"
@@ -43,40 +73,20 @@
     "name": "Weather Forecast",
     "desc": "A simple weather forecast web app to check current weather conditions.",
     "image": "weather-forecast.png",
-    "category": "JavaScript",
+    "category": "basicweb",
     "links": {
       "view": "https://lorisaccordino.github.io/JavaScript-Projects/weather-forecast/index.html",
       "code": "https://github.com/LorisAccordino/JavaScript-Projects/tree/main/weather-forecast"
     }
   },
   {
-    "name": "Audio Processing",
-    "desc": "An advanced audio analysis and processing application written in C#.",
-    "image": "waveform.gif",
-    "category": "JavaScript",
+    "name": "Portfolio Website",
+    "desc": "Personal portfolio website. Don't need much info about it, Just scroll down. You're here only!",
+    "image": "portfolio.png",
+    "category": "basicweb",
     "links": {
-      "view": "https://github.com/LorisAccordino/Audio-Processing?tab=readme-ov-file#audio-processing",
-      "code": "https://github.com/LorisAccordino/Audio-Processing"
-    }
-  },
-  {
-    "name": "NLoggify",
-    "desc": "A lightweight, customizable logging library for .NET that supports multiple log levels",
-    "image": "nloggify.png",
-    "category": "JavaScript",
-    "links": {
-      "view": "https://github.com/LorisAccordino/NLoggify?tab=readme-ov-file#nloggify",
-      "code": "https://github.com/LorisAccordino/NLoggify"
-    }
-  },
-  {
-    "name": "Java Socket Terminal",
-    "desc": "A socket-based Java client-server application, with chat and shell-style text commands.",
-    "image": "java-socket.png",
-    "category": "JavaScript",
-    "links": {
-      "view": "https://github.com/LorisAccordino/Java-Socket-Terminal?tab=readme-ov-file#-overview",
-      "code": "https://github.com/LorisAccordino/Java-Socket-Terminal"
+      "view": "https://lorisaccordino.github.io/projects/#",
+      "code": "https://github.com/LorisAccordino/LorisAccordino.github.io"
     }
   }
 ]
