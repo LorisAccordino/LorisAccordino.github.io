@@ -88,5 +88,35 @@
       "view": "https://lorisaccordino.github.io/projects/#",
       "code": "https://github.com/LorisAccordino/LorisAccordino.github.io"
     }
+  },
+  {
+    "name": "Multiplayer battleship in C",
+    "desc": "Classic Battleship game in C with TCP/IP networking, using TextGameKit for game logic and smooth local multiplayer.",
+    "image": "battleship.png",
+    "category": "programming",
+    "links": {
+      "view": "https://github.com/LorisAccordino/Battleship-Game/releases/tag/v1.0.0",
+      "code": "https://github.com/LorisAccordino/Battleship-Game"
+    }
+  },
+  {
+    "name": "STEAM Who",
+    "desc": "An Akinator-like quiz about some popular STEAM people.",
+    "image": "steam-who.png",
+    "category": "basicweb",
+    "links": {
+      "view": "https://lorisaccordino.github.io/STEAM-Who/",
+      "code": "https://github.com/LorisAccordino/STEAM-Who"
+    }
+  },
+  {
+    "name": "Sudoku Solver",
+    "desc": "A Sudoku solver implemented with backtracking algorithm, written in VB.NET",
+    "image": "sudoku.png",
+    "category": "programming",
+    "links": {
+      "view": "https://github.com/LorisAccordino/SudokuSolverVB?tab=readme-ov-file#sudoku-solver",
+      "code": "https://github.com/LorisAccordino/SudokuSolverVB"
+    }
   }
 ]
